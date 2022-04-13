@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    font-family: "Montserrat";
+    width: 100%;
+    font-size: 24px;
+}
+
+/* Страница физ подготовки*/
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+}
+.header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+.two{
+}
+
+.flex__rowone{
+    margin: 55px;
+}
+
+.text{
+    margin: 0 44px 0 0;
+    transition: all .3s linear;
+}
+
+.header__item a:hover{
+   background: linear-gradient(45deg, #BF9D75 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+.content{
+    color: #fff;
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+
+.header__title a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s linear;
+}
+.header__title a:hover{
+    color: #800080;
+}
+
+/* Контент пошел */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.flex__row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px auto;
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program__fizu font{
+    font-weight: 700;
+}
+
+.program__fizu{
+    width: 900px;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+
+
+
+/*ФУТЕР*/
+
+.content__footer p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
+
+.text__size{
+    font-size: 24px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+.two{
+}
+
+.flex__rowone{
+    margin: 55px;
+}
+
+.text{
+    margin: 0 44px 0 0;
+    transition: all .3s linear;
+}
+
+.header__item a:hover{
+   background: linear-gradient(45deg, #BF9D75 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+.content{
+    color: #fff;
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+/* Контент пошел */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.flex__row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 20px;
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.flex__column img{
+    width: 500px;
+}
+
+
+.program__fizu font{
+    font-weight: 700;
+}
+
+.program__fizu{
+    width:100%;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+.autor{
+        display: none;
+    }
+
+.text__size{
+    font-size: 24px;
+}
+
+
+}
+
+@media (min-width: 650px) and (max-width: 767px){
+
+    .header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+
+.header__title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+/* Контент пошел */
+
+
+.flex__row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 20px;
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.flex__column img{
+    width: 500px;
+}
+
+
+.program__fizu font{
+    font-weight: 700;
+}
+
+.program__fizu{
+    width:100%;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+.autor{
+        display: none;
+}
+
+.text__size{
+    font-size: 24px;
+}
+
+
+}
+
+@media (min-width: 481px) and (max-width: 649px){
+
+    .header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+/* Контент пошел */
+
+
+.flex__row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 20px;
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.flex__column img{
+    width: 400px;
+}
+
+
+.program__fizu font{
+    font-weight: 700;
+}
+
+.program__fizu{
+    width:100%;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+.autor{
+        display: none;
+}
+
+.text__size{
+    font-size: 24px;
+}
+.two{
+    width: 80px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+.header__itemone{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+
+.header__title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+/* Контент пошел */
+
+
+.flex__row{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 20px;
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.flex__column img{
+    width: 400px;
+}
+
+
+.program__fizu font{
+    font-weight: 700;
+}
+
+.program__fizu{
+    width:100%;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+.autor{
+        display: none;
+}
+
+.text__size{
+    font-size: 24px;
+}
+
+.two{
+    width: 50px;
+}
+
+
+}

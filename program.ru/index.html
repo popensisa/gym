@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
+<body>
+	<div class="pages">
+		<div class="header">
+			<div class="container">
+			<div class="header__section">
+				<div class="header__item">
+					<a href="#about" class="header__itemone text">About</a>
+					<a href="#"><img src="icon/Vector.svg" class="two"></a>
+					<a href="program.html" class="header__itemone text">Program</a>
+				</div>
+
+				<div class="header__title">doIT</div>
+				<div class="header__text">Сильное тело формирует сильную личность</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="content__form">
+					<div class="form__title">Вступай в нашу семью!</div>
+					<form action="bd__klient.php" method="post" class="form__form">
+						<input type="text" maxlength="15" placeholder="Name" name="username">
+						<input type="text" maxlength="15" placeholder="Number" name="usernumber" class="inp">
+					   <button type="submit">Отправить</button>
+					</form>
+					<div class="form__text">
+						Отправь данные и с вами свяжется специалист и поможет вам с программой тренировок
+					</div>
+				</div>
+
+				<div class="content__program">
+					<div class="program__title">Программы для тренировок</div>
+
+
+					<div class="image-slider swiper-container">
+						<div class="image-slider__wrapper swiper-wrapper">
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image">
+									<div class="slider__one">
+				                 <a href="fitnexstr/fitnesvidy.html">Фитнес</a>
+				               		</div>
+								</div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image">
+									<div class="slider__two">
+				                 <a href="crossfitstr/cross.html">Кроссфит</a>
+				               		</div>
+								</div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image">
+									<div class="slider__three">
+				                 <a href="ioga/iogastr.html">Йога</a>
+				               		</div>
+								</div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image">
+									<div class="slider__four">
+				                 <a href="bodybould/bodystr.html">Бодибилдинг</a>
+				               		</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-pagination"></div>
+					</div>
+
+				</div>
+
+				<div class="content__autor">
+					<div class="autor__title" id="about">Тренерский состав</div>
+					<div class="about__autor">
+						<div class="about__photo"><img src="img/arno.jpg" alt=""></div>
+						<div class="about__info">
+								<div class="about__text name"><p>Имя: Арнольд</p></div>
+							<div class="about__text name"><p>Фамилия: Швага</p></div>
+							<div class="about__text name"><p>Разряд: МС Международного класса</p></div>
+							<div class="about__text name"><p>Стаж тренером: 5 лет</p></div>
+							<div class="about__text name"><p>О себе: "Сделаю из вас тряпку"</p></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="content__footer">
+				<div class="container">
+					<div class="flex__row">
+						<div class="footer__icon">
+							<a href="#">
+								<img src="icon/youtube.svg" alt="" class="footer__icon-item">
+							</a>
+							<a href="#">
+								<img src="icon/inst.svg" alt="" class="footer__icon-item">
+							</a>
+							<a href="#">
+								<img src="icon/vk.svg" alt="" class="footer__icon-item">
+							</a>
+						</div>
+						<div class="footer__text">Спорт - идеалогия</div>
+						<div class="footer__emblem">
+							<img src="icon/Vector.svg" alt="" class="footer__emblem-item">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

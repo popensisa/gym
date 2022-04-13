@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    font-family: "Montserrat";
+    width: 100%;
+    font-size: 24px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #000;
+}
+
+
+.header{
+    background: url("imgioga/iogaintro.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color:;
+    flex: 1 0 auto;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.background__intro{}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+}
+.header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+.two{
+}
+
+.flex__rowone{
+    margin: 55px;
+}
+
+.text{
+    margin: 0 44px 0 0;
+    transition: all .3s linear;
+}
+
+.header__item a:hover{
+   background: linear-gradient(45deg, #BF9D75 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 25px auto 25px auto;
+    text-align: center;
+}
+.header__text{
+    color:#fff;
+    font-size: 24px;
+    line-height: normal;
+    margin: 0 0 400px 0;
+    text-indent: 10px;
+}
+.header__text font{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* CONNTENT */
+
+.content{
+    color: #fff;
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.iogaprog__title{
+    font-weight: 700;
+    text-align: center;
+    margin: 40px auto;
+}
+.content__iogaprog{
+    text-indent: 20px;
+}
+.content__iogaprog li{
+    list-style-type: disc;
+    margin: 10px 0 10px 100px;
+}
+.content__iogaprog font{
+    font-weight: 700;
+}
+
+.asan__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+.asan__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.asan__row img{
+    margin: 25px 25px 0 0;
+}
+.asan__row p{
+    line-height: normal;
+}
+.ease{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.ioga__moretext p{
+    margin: 25px;
+}
+
+.content__footer p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.content__iogaprog{
+    font-size: 16px;
+}
+
+.asan__row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asan__row img{
+    width: 600px;
+}
+
+}
+
+@media (min-width: 650px) and (max-width: 767px){
+
+.content__iogaprog{
+    font-size: 16px;
+}
+
+.asan__row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asan__row img{
+    width: 400px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 649px){
+.two{
+    width: 80px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+.content__iogaprog{
+    font-size: 16px;
+}
+
+.asan__row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asan__row img{
+    width: 400px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+.two{
+    width: 80px;
+}
+.content__iogaprog{
+    font-size: 14px;
+}
+
+.asan__row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asan__row img{
+    width: 300px;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px auto 25px auto;
+    text-align: center;
+}
+.header__text{
+    color:#fff;
+    font-size: 16px;
+    line-height: normal;
+    margin: 0 0 400px 0;
+    text-indent: 10px;
+}
+.header__text font{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.text{
+    font-size: 16px;
+}
+
+}

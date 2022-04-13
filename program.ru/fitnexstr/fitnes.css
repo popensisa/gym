@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    font-family: "Montserrat";
+    width: 100%;
+    font-size: 24px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+}
+.header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+.two{
+}
+
+.flex__rowone{
+    margin: 55px;
+}
+
+.text{
+    margin: 0 44px 0 0;
+    transition: all .3s linear;
+}
+
+.header__item a:hover{
+   background: linear-gradient(45deg, #BF9D75 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 25px auto 70px auto;
+    text-align: center;
+}
+
+.content{
+    color: #fff;
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+
+.content__fitnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 70px 0;
+}
+
+.content__fitnes a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.content__fitnes span{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    opacity: 1;
+}
+
+.fiz{
+    background: url("imgprog/fiz.jpg") center;
+    width: 360px;
+    height: 240px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+    transition: all .3s linear;
+}
+
+.fiz span{
+    width: 180px;
+    height: 240px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.sten{
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(to bottom, #f38181, #fce381);
+    opacity: 0;
+    transition: all .3s linear
+}
+.fiz:hover .sten{
+    opacity: 0.8;
+}
+.fiz:hover .tex{
+    opacity: 1;
+}
+
+.poh{
+    background: url("imgprog/skakalka-3.jpg") center;
+    width: 360px;
+    height: 380px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+}
+
+.poh span{
+    width: 180px;
+    height: 240px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.stena{
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(to bottom, #f38181, #fce381);
+    opacity: 0;
+    transition: all .3s linear
+}
+
+.poh:hover .stena{
+    opacity: 0.8;
+}
+.poh:hover .pohud{
+    opacity: 1;
+}
+
+
+.ass{
+    background: url("imgprog/ass.jpg") center;
+    width: 523px;
+    height: 588px;
+    position: relative;
+    opacity: 1;
+    margin: 5px;
+}
+
+.stenat{
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to bottom, #f38181, #fce381);
+    opacity: 0;
+    transition: all .3s linear
+}
+
+.ass span{
+    height: 240px;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.ass:hover .stenat{
+    opacity: 0.8;
+}
+.ass:hover .assn{
+    opacity: 1;
+}
+
+/* FOOTER */
+
+.content__footer p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* Страница физ подготовки */
+
+.header__title a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s linear;
+}
+.header__title a:hover{
+    color: #800080;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content{
+    color: #fff;
+    background: url("../img/content.jpg") center repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+
+/* Автор  */
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+.content__fitnes{
+    display: flex;
+    flex-direction: column;
+}
+.fitnes__column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.fiz{
+    background: url("imgprog/fiz.jpg") center;
+    width: 250px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+    transition: all .3s linear;
+}
+
+.fiz span{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+}
+.poh span{
+    opacity: 1;
+}
+
+.poh{
+    background: url("imgprog/skakalka-3.jpg") center;
+    width: 360px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+}
+
+
+.ass span{
+    opacity: 1;
+}
+
+.ass{
+    background: url("imgprog/ass.jpg") center;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 5px;
+}
+
+}
+
+@media (min-width: 650px) and (max-width: 767px){
+.two{
+    width: 100px;
+}
+
+.content__fitnes{
+    display: flex;
+    flex-direction: column;
+}
+.fitnes__column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.fiz{
+    background: url("imgprog/fiz.jpg") center;
+    width: 250px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+    transition: all .3s linear;
+}
+
+.fiz span{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+}
+.poh span{
+    opacity: 1;
+}
+
+.poh{
+    background: url("imgprog/skakalka-3.jpg") center;
+    width: 310px;
+    height: 250px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+}
+
+
+.ass span{
+    opacity: 1;
+}
+
+.ass{
+    background: url("imgprog/ass.jpg") center;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 5px;
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 649px){
+.two{
+    width: 80px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+
+.content__fitnes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fitnes__column{
+}
+
+
+.fiz{
+    background: url("imgprog/fiz.jpg") center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+    transition: all .3s linear;
+}
+
+.fiz span{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+}
+.poh span{
+    opacity: 1;
+}
+
+.poh{
+    background: url("imgprog/skakalka-3.jpg") center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+}
+
+
+.ass span{
+    opacity: 1;
+}
+
+.ass{
+    background: url("imgprog/ass.jpg") center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    opacity: 1;
+    margin: 5px;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+.two{
+    width: 50px;
+}
+.header__itemone{
+    font-size: 16px;
+}
+
+.header__title{
+    font-size: 24px;
+}
+
+.content__fitnes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fitnes__column{
+}
+
+
+.fiz{
+    background: url("imgprog/fiz.jpg") center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+    transition: all .3s linear;
+}
+
+.fiz span{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+}
+.poh span{
+    opacity: 1;
+}
+
+.poh{
+    background: url("imgprog/skakalka-3.jpg") center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    opacity: 1;
+    margin: 10px;
+}
+
+
+.ass span{
+    opacity: 1;
+}
+
+.ass{
+    background: url("imgprog/ass.jpg") center;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    opacity: 1;
+    margin: 5px;
+}
+}

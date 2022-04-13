@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-transform: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    font-family: "Montserrat";
+    width: 100%;
+    font-size: 24px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #000;
+}
+
+
+.header{
+    background: url("bodyintro.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color:;
+    flex: 1 0 auto;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.background__intro{}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+}
+.header__itemone{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.flex__rowtwo{
+    margin: 55px;
+}
+
+.two{
+}
+
+.flex__rowone{
+    margin: 55px;
+}
+
+.text{
+    margin: 0 44px 0 0;
+    transition: all .3s linear;
+}
+
+.header__item a:hover{
+   background: linear-gradient(45deg, #BF9D75 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+
+.header__title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 25px auto 25px auto;
+    text-align: center;
+}
+.header__text{
+    color:#fff;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+}
+.header__text font{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*forms*/
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"]{
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 60px; 
+   width: 350px; 
+   color: #000; 
+   font-size: 34px; 
+   font-family: Montserrat; 
+   transition: all .3s linear;
+   padding: 0 0 0 10px;
+}
+input[type="text"]:focus {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    background: #000 !important; 
+    color: #fff;
+}
+
+.input__result{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input__result input{
+   height: 80px; 
+   width: 600px;
+   text-align: center;
+   margin: 10px auto;
+}
+
+select{
+    border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 60px; 
+   width: 350px; 
+   color: #3a3a3a; 
+   font-size: 34px; 
+   font-family: Montserrat; 
+   transition: all .3s linear;
+   padding: 0 0 0 10px;
+}
+
+.flex__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 0 0 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 0 0;
+}
+
+button{
+    width: 350px;
+    height: 60px;
+    -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   font-size: 34px;
+   outline: none;
+   transition: all .3s linear;
+   white-space: 
+}
+
+button:hover{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    background: #000 !important; 
+    color: #fff;
+}
+
+
+.absolute{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 60px;
+  color: #fff;
+  display: none;
+}
+.active{
+  display: block;
+}
+.kilo{
+  margin: 10px;
+}
+.content__footer p{
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.input__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kilo{
+  margin: 10px;
+}
+
+}
+
+@media (min-width: 650px) and (max-width: 767px){
+
+.input__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kilo{
+  margin: 10px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 649px){
+
+.input__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kilo{
+  margin: 10px;
+}
+.two{
+    width: 80px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+.input__result input{
+   height: 80px; 
+   width: 500px;
+   text-align: center;
+   margin: 10px auto;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+.input__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kilo{
+  margin: 10px;
+}
+.two{
+    width: 80px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+.input__result input{
+   height: 80px; 
+   width: 300px;
+   text-align: center;
+   margin: 10px auto;
+}
+
+input[type="text"]{
+   border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   -khtml-border-radius: 3px; 
+   background: #ffffff !important; 
+   outline: none; 
+   height: 60px; 
+   width: 350px; 
+   color: #000; 
+   font-size: 24px; 
+   font-family: Montserrat; 
+   transition: all .3s linear;
+   padding: 0 0 0 10px;
+}
+.flex__rowtwo{
+    margin: 55px 55px 55px 0px;
+}
+
+.two{
+    width: 80px;
+}
+.text{
+    font-size: 16px;
+}
+.content__footer p{
+    font-size: 16px;
+    text-align: center;
+}
+
+}
